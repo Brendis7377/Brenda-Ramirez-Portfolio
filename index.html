@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brenda Ramirez • Portfolio</title>
+    <meta name="description"  content="Portfolio Website for Brenda Ramirez - CS Student @ UC San Diego ♡." /> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- skip link for keyboard users -->
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Brenda Ramirez ⋆˚꩜｡(˶ᵔ ᵕ ᵔ˶) ‹𝟹˚｡⋆</h1>
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="resume">Resume</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#more-about">More About me!</a></li>
+          <li><a href="#contact-information">Contact Information</a></li>
+          <li><button id="themeToggle" class="btn" aria-pressed="false" aria-label="Toggle theme">☀︎/☾</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero container">
+      <div class="hero-text">
+        <h2>Hi, I'm <span class="accent">Brenda!</span> — B.S. Computer Science @ UC San Diego ♡. </h2>
+        <p class="lead">
+          As a first generation latina majoring in Computer Science at UCSD, I'm excited to keep learning and applying my skills to real-world projects. Through my coursework, research, and hands-on experience, I've built a strong foundation in programming, data analysis, and software development. Thank you for taking the time to come to my portfolio!
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See Projects</a>
+          <a class="btn ghost" href="mailto:brr009@ucsd.edu">Email Me</a>
+        </div>
+      </div>
+      <!-- decorative shapes only -->
+      <div class="hero-card" role="img" aria-label="Decorative shapes"></div>
+    </section>
+
+    <section id="projects" class="container section">
+        <h3>Projects</h3>
+        <div class="grid">
+          <!-- project card template -->
+          <article class="card">
+            <h4>Portfolio Website</h4>
+            <p>Responsive site with keyboard navigation and light/dark theme. Built with semantic HTML, CSS Grid/Flexbox, and a sprinkle of JS.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>Accessibility</li></ul>
+            <div class="links">
+              <a class="btn small disabled" aria-disabled="true">Live (soon)</a>
+              <a class="btn small ghost disabled" aria-disabled="true">Source (soon)</a>
+            </div>
+          </article>
+          <article class="card">
+            <h4>ArtFlow — Trello-Lite (front-end)</h4>
+            <p>Drag-and-drop boards/lists/cards with localStorage and keyboard support.</p>
+            <ul class="tags"><li>React</li><li>TypeScript</li><li>dnd-kit</li></ul>
+            <div class="links">
+              <a class="btn small disabled" aria-disabled="true">Live (soon)</a>
+              <a class="btn small ghost disabled" aria-disabled="true">Source (soon)</a>
+            </div>
+          </article>
+        </div>
+      </section>
+  
+      <section id="about" class="container section">
+        <h3>About</h3>
+        <p>
+          I’m a Computer Science student at UCSD pursuing a minor in design.
+          I enjoy building tools that make education and creative work more approachable.
+          Outside of class, I love <em>drawing, baking, swimming</em>, and thrifting!
+
+        </p>
+      </section>
+  
+      <section id="contact" class="container section">
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li><a href="mailto:brr009@ucsd.edu">brr009@ucsd.edu</a></li>
+          <li><a href="https://linkedin.com/in/brenda-ramirez-73j7" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/Brendis7377" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="(619)317-3495" target="_blank" rel="noopener">(619)317-3495</a></li>
+        </ul>
+      </section>
+    </main>
+  
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Brenda Ramirez</p>
+      </div>
+    </footer>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
+
+ 
+            
+        
+
+
+
