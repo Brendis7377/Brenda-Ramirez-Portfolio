@@ -13,5 +13,5 @@ I designed it to be clean, responsive, and accessible, with a focus on UI/UX fun
 ## :) Tech Used
 - **HTML5** — semantic structure  
 - **CSS3** — Grid, Flexbox, custom properties (CSS variables)  
-- **JavaScript** — theme toggle + small interactive logic   
+- **JavaScript** — theme toggle + small interactive logic  
 
