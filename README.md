@@ -1,4 +1,8 @@
-# Brenda Ramirez — Portfolio Website
+# Brenda Ramirez — Portfolio Website   
+
+Deployment!
+Live site:  
+https://brendis7377.github.io/Brenda-Ramirez-Portfolio/
 
 This is my personal portfolio website built with **HTML, CSS, and vanilla JavaScript**.  
 I designed it to be clean, responsive, and accessible, with a focus on UI/UX fundamentals.
